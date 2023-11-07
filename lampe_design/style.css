@@ -1,0 +1,32 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container{
+    height: 100%;
+    background-color: blueviolet;
+}
+
+.cable{
+    width: 10px;
+    height: 150px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+
+    background-color: black;
+}
+
+.lampe_trapeze{
+    position: absolute;
+    top:150px ;
+    left: 43%;
+
+    border-bottom: 50px solid #555;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	height: 0;
+	width: 100px;
+}

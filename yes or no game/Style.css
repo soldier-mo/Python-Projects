@@ -1,0 +1,56 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    padding:0;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.possibilities{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.question{
+    color: black;
+    font-weight: 999;
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 2.5%;
+}
+
+.btn_holder{
+    margin: 5%;
+}
+
+.btn{
+    position: absolute;
+
+    color: black;
+    font-weight: 999;
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.hidden{
+    display: none;
+}
+
+.yes{
+    left: 40%;
+}
+
+.no{
+    left: 60%;
+}
